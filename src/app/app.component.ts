@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'random-select';
+
+  fields = [{value: ""}];
+  result: string | undefined;
+
+
+  add() {
+    this.fields.push({value: "" });
+  }
+
+  submit() {
+    const index = Math.floor(Math.random() * this.fields.length);
+    this.result = this.fields[index].value;
+  }
+
 }
