@@ -3,7 +3,7 @@
 <div class="m-5">
   <div *ngFor="let field of fields">
     <div class="mb-3">
-      <input class="form-control" placeholder="Enter value" (keyup.enter)="add()" [(ngModel)]="field.value" aria-describedby="random option to fill in">
+      <input id="{{field.id}}" class="form-control" placeholder="Enter value" (keydown.control.enter)="submit()" (keyup.enter)="add()" [(ngModel)]="field.value" aria-describedby="random option to fill in">
     </div>
   </div>
   <button class="btn btn-primary m-2" (click)="add()">add</button>
