@@ -1,4 +1,4 @@
-import {Component, Renderer2, ViewChild} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,12 +7,9 @@ import {Component, Renderer2, ViewChild} from '@angular/core';
 })
 export class AppComponent {
 
-  fields = [{id: 'input'+0, value: ""}];
-  result!: string;
-
-  seq = 0;
-
-  constructor(private renderer: Renderer2) {}
+  fields = this.getDefaultFields();
+  result = this.getDefaultResult();
+  seq = this.getDefaultSequence();
 
   add() {
     const newSeq = ++this.seq;
@@ -25,4 +22,24 @@ export class AppComponent {
     this.result = this.fields[index].value;
   }
 
+  reset() {
+    this.result = this.getDefaultResult();
+    this.seq = this.getDefaultSequence();
+    this.fields = this.getDefaultFields();
+    setTimeout(() => (document.querySelector('#input'+0) as any).focus(), 0);
+  }
+
+  getDefaultFields() {
+    return [{id: 'input' + 0, value: ""}];
+  }
+
+  getDefaultSequence() {
+    return 0;
+  }
+
+  private getDefaultResult() {
+    return '';
+  }
+
 }
+

@@ -6,8 +6,9 @@
       <input id="{{field.id}}" class="form-control" placeholder="Enter value" (keydown.control.enter)="submit()" (keyup.enter)="add()" [(ngModel)]="field.value" aria-describedby="random option to fill in">
     </div>
   </div>
-  <button class="btn btn-primary m-2" (click)="add()">add</button>
+  <button class="btn btn-primary m-2" (click)="add()">Add</button>
   <button type="submit" class="btn btn-primary m-2" (click)="submit()">Submit</button>
+  <button class="btn btn-primary m-2" (click)="reset()">Reset</button>
 </div>
 
 <div *ngIf="result" class="alert alert-info m-5">
