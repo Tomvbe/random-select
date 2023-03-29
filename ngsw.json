@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1680117832861,
+  "timestamp": 1680118596531,
   "index": "https://tomvbe.github.io/random-select/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://tomvbe.github.io/random-select/favicon.ico",
         "https://tomvbe.github.io/random-select/index.html",
-        "https://tomvbe.github.io/random-select/main.c704f558e13fcab5.js",
+        "https://tomvbe.github.io/random-select/main.bebe91401c94c655.js",
         "https://tomvbe.github.io/random-select/manifest.webmanifest",
         "https://tomvbe.github.io/random-select/polyfills.443488056468a801.js",
         "https://tomvbe.github.io/random-select/runtime.d90692c73fbf00f7.js",
@@ -54,8 +54,8 @@
     "https://tomvbe.github.io/random-select/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://tomvbe.github.io/random-select/assets/random.png": "9a39059c5ba86a52d26db71d736dad2266636844",
     "https://tomvbe.github.io/random-select/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://tomvbe.github.io/random-select/index.html": "fd412c61cf5ce137bc13b7e2c63929856121b7ab",
-    "https://tomvbe.github.io/random-select/main.c704f558e13fcab5.js": "7c42570cea9b17362dd623fc38cdacbb8afe6375",
+    "https://tomvbe.github.io/random-select/index.html": "3937fb2764335ca7f4b078001590fcfeed20a59c",
+    "https://tomvbe.github.io/random-select/main.bebe91401c94c655.js": "be4d9362c5919521d4b39238f90c4cb609f7d0fb",
     "https://tomvbe.github.io/random-select/manifest.webmanifest": "180d554dfbe220c15ddf36089853574a21c7f9e4",
     "https://tomvbe.github.io/random-select/polyfills.443488056468a801.js": "51f21509dd7a6e4987133af3dc9833388f1b4e3b",
     "https://tomvbe.github.io/random-select/runtime.d90692c73fbf00f7.js": "f743f468e89e53f5e29673e4a7aabf315c7e5f90",
